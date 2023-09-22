@@ -1,0 +1,19 @@
+.articles{
+  border: 2px solid red;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+/* .articles_left, .articles_right{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+} */
+
+.articles_left{
+  /* border: 2px solid blue; */
+}
+
+.articles_right{
+  /* border: 2px solid green; */
+}
