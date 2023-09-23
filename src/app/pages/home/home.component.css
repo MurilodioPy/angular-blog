@@ -1,19 +1,22 @@
 .articles{
   border: 2px solid red;
   display: flex;
-  /* justify-content: space-evenly; */
+  flex-direction: row;
+  justify-content:space-evenly;
 }
 
-/* .articles_left, .articles_right{
+.articles_left, .articles_right{
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-} */
+}
 
 .articles_left{
-  /* border: 2px solid blue; */
+  border: 2px solid rgb(0, 255, 242);
 }
 
 .articles_right{
-  /* border: 2px solid green; */
+  border: 2px solid rgb(119, 231, 28);
+  display: flex;
+  flex-direction: column;
 }
