@@ -21,6 +21,9 @@
   align-items: center;
   padding: 20px;
 }
+.small-card_description > h1{
+  font-size: 2vw;
+}
 
 .small-card_separator{
   margin: 15px 0px;
