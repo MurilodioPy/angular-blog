@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-big-card',
@@ -12,10 +13,16 @@ export class BigCardComponent implements OnInit {
   cardTitle_bigcard : string = ""
   @Input()
   cardDescription_bigcard : string = ""
-
-  constructor() { }
+  @Input()
+  Id : string = "1"
+  constructor(
+    private route:ActivatedRoute
+    ) {}
 
   ngOnInit(): void {
+    this.route.paramMap.subscribe( value =>
+      console.log(value)
+    )
   }
 
 }
